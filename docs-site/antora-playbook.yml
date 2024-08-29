@@ -1,0 +1,36 @@
+antora:
+  extensions:
+    - "@antora/lunr-extension"
+    - "@antora/pdf-extension"
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+  attributes:
+    # When `kroki-fetch-diagram` is set to `true`, the images from Kroki are downloaded
+    # at run time, and you won't rely on Kroki while viewing pages.
+    # However, in Antora, this is not currently compatible with inline SVG images.
+    kroki-fetch-diagram: true
+    # access the local kroki container
+    # kroki-server-url: http://kroki-compose:8000
+site:
+  title: Test Docs
+  start_page: test::overview.adoc
+content:
+  sources:
+    - url: https://github.com/91jaeminjo/antora_pdf.git
+      branches: HEAD
+      start_path: docs/
+# git:
+#   credentials:
+#     path: /antora/.git-credentials
+ui:
+  bundle:    
+    url: ui-bundle.zip
+    # adjust ui-bundle location as necessary
+
+    # When `snapshot` is set to `true`, Antora will download the UI bundle
+    # whenever `fetch` key under the `runtime` category is enabled.
+    snapshot: true
+runtime:
+  log:
+    failure_level: warn

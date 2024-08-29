@@ -1,0 +1,5 @@
+name: test
+version: ~
+start_page: overview.adoc
+nav:
+- modules/ROOT/nav.adoc
