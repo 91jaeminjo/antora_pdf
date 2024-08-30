@@ -1,7 +1,7 @@
 antora:
   extensions:
     - "@antora/lunr-extension"
-    # - "@antora/pdf-extension"
+    - "@antora/pdf-extension"
 asciidoc:
   extensions:
     - asciidoctor-kroki
@@ -14,15 +14,12 @@ asciidoc:
     # kroki-server-url: http://kroki-compose:8000
 site:
   title: Test Docs
-  # start_page: test::overview.adoc
+  start_page: test::overview.adoc
 content:
   sources:
     - url: https://github.com/91jaeminjo/antora_pdf.git
       branches: HEAD
       start_path: docs/
-# git:
-#   credentials:
-#     path: /antora/.git-credentials
 ui:
   bundle:    
     url: ui-bundle.zip
