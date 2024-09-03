@@ -13,9 +13,9 @@ Lorem Ipsum 1 Root Page 1
 // === Convallis lacus ac magna
 // Convallis lacus ac magna
 
-// image::image-5.jpg[]
+image::image-5.jpg[]
 
-include::../images/image-5.jpg[]
+// include::../images/image-5.jpg[]
 
 
 .Inline CSV Table
