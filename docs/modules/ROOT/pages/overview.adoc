@@ -15,7 +15,7 @@ Lorem Ipsum 1 Root Page 1
 
 // image::image-5.jpg[]
 
-// include::../images/image-5.jpg[]
+include::../images/image-5.jpg[]
 
 
 .Inline CSV Table
