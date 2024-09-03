@@ -1,2 +1,62 @@
-= Test
-more text
+:imagesdir: ../images
+:toc: macro
+
+[.text-center]
+= Lorem Ipsum 1 Root Page 1
+Lorem Ipsum 1 Root Page 1
+
+== onsectetuer adipiscing elit
+onsectetuer adipiscing elit
+
+Ornare laoreet
+
+=== Convallis lacus ac magna
+Convallis lacus ac magna
+
+// == onsectetuer adipiscing elit
+
+include::../images/image-5.jpg[]
+
+
+.Inline CSV Table
+[%header,format=csv]
+|===
+
+Artist,Track,Genre
+Baauer,Harlem Shake,Hip Hop
+The Lumineers,Ho Hey,Folk Rock
+
+|===
+
+
+== Gantt diagram
+
+[plantuml,"gantt-diagram-example",svg]
+.inline PlantUML
+----
+@startgantt
+[Prototype design] lasts 10 days
+[Code prototype] lasts 10 days
+[Write tests] lasts 5 days
+[Code prototype] starts at [Prototype design]'s end
+[Write tests] starts at [Code prototype]'s start
+@endgantt
+----
+
+
+.Sollicitudin consequat
+[%header,format=csv]
+|===
+
+include::../attachments/csv-table-1.csv[]
+
+|===
+
+[plantuml, plantUML, png]
+....
+include::partial$plantuml-activity-diagram.puml[]
+....
+
+
+[.text-left]
+toc::[]
