@@ -1,32 +1,32 @@
-:imagesdir: ../images
-:toc: macro
+// :imagesdir: ../images
+// :toc: macro
 
 [.text-center]
 = Lorem Ipsum 1 Root Page 1
 Lorem Ipsum 1 Root Page 1
 
-== onsectetuer adipiscing elit
-onsectetuer adipiscing elit
+// == onsectetuer adipiscing elit
+// onsectetuer adipiscing elit
 
-Ornare laoreet
+// Ornare laoreet
 
-=== Convallis lacus ac magna
-Convallis lacus ac magna
+// === Convallis lacus ac magna
+// Convallis lacus ac magna
 
-image::image-5.jpg[]
+// image::image-5.jpg[]
 
-include::../images/image-5.jpg[]
+// include::../images/image-5.jpg[]
 
 
-.Inline CSV Table
-[%header,format=csv]
-|===
+// .Inline CSV Table
+// [%header,format=csv]
+// |===
 
-Artist,Track,Genre
-Baauer,Harlem Shake,Hip Hop
-The Lumineers,Ho Hey,Folk Rock
+// Artist,Track,Genre
+// Baauer,Harlem Shake,Hip Hop
+// The Lumineers,Ho Hey,Folk Rock
 
-|===
+// |===
 
 
 // == Gantt diagram
@@ -58,5 +58,5 @@ The Lumineers,Ho Hey,Folk Rock
 // ....
 
 
-[.text-left]
-toc::[]
+// [.text-left]
+// toc::[]
