@@ -1,5 +1,5 @@
-// :imagesdir: ../images
-// :toc: macro
+:imagesdir: ../images
+:toc: macro
 
 [.text-center]
 = Lorem Ipsum 1 Root Page 1
@@ -58,5 +58,5 @@ Lorem Ipsum 1 Root Page 1
 // ....
 
 
-// [.text-left]
-// toc::[]
+[.text-left]
+toc::[]
