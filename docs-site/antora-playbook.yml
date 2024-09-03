@@ -14,7 +14,7 @@ asciidoc:
     # kroki-server-url: http://kroki-compose:8000
 site:
   title: Test Docs
-  start_page: antora_pdf_component::overview.adoc
+  start_page: test::overview.adoc
 content:
   sources:
     - url: https://github.com/91jaeminjo/antora_pdf.git
