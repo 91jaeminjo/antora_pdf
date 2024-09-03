@@ -29,33 +29,33 @@ The Lumineers,Ho Hey,Folk Rock
 |===
 
 
-== Gantt diagram
+// == Gantt diagram
 
-[plantuml,"gantt-diagram-example",svg]
-.inline PlantUML
-----
-@startgantt
-[Prototype design] lasts 10 days
-[Code prototype] lasts 10 days
-[Write tests] lasts 5 days
-[Code prototype] starts at [Prototype design]'s end
-[Write tests] starts at [Code prototype]'s start
-@endgantt
-----
+// [plantuml,"gantt-diagram-example",svg]
+// .inline PlantUML
+// ----
+// @startgantt
+// [Prototype design] lasts 10 days
+// [Code prototype] lasts 10 days
+// [Write tests] lasts 5 days
+// [Code prototype] starts at [Prototype design]'s end
+// [Write tests] starts at [Code prototype]'s start
+// @endgantt
+// ----
 
 
-.Sollicitudin consequat
-[%header,format=csv]
-|===
+// .Sollicitudin consequat
+// [%header,format=csv]
+// |===
 
-include::../attachments/csv-table-1.csv[]
+// include::../attachments/csv-table-1.csv[]
 
-|===
+// |===
 
-[plantuml, plantUML, png]
-....
-include::partial$plantuml-activity-diagram.puml[]
-....
+// [plantuml, plantUML, png]
+// ....
+// include::partial$plantuml-activity-diagram.puml[]
+// ....
 
 
 [.text-left]
