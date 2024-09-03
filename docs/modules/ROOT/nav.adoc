@@ -1,2 +1,2 @@
 .Documents
-* xref:test::overview.adoc[Overview]
+* xref:antora_pdf::overview.adoc[Overview]

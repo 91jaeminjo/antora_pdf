@@ -1,5 +1,5 @@
-name: test
+name: antora_pdf
 version: ~
 start_page: overview.adoc
 nav:
-- modules/ROOT/nav.adoc
+  - modules/ROOT/nav.adoc
