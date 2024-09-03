@@ -18,15 +18,15 @@ Lorem Ipsum 1 Root Page 1
 // include::../images/image-5.jpg[]
 
 
-// .Inline CSV Table
-// [%header,format=csv]
-// |===
+.Inline CSV Table
+[%header,format=csv]
+|===
 
-// Artist,Track,Genre
-// Baauer,Harlem Shake,Hip Hop
-// The Lumineers,Ho Hey,Folk Rock
+Artist,Track,Genre
+Baauer,Harlem Shake,Hip Hop
+The Lumineers,Ho Hey,Folk Rock
 
-// |===
+|===
 
 
 // == Gantt diagram
