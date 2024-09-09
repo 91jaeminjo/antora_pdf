@@ -1,4 +1,4 @@
 root_level: 1
 component_versions: "*"
 build:
-  command: bundle exec asciidoctor-pdf
+  command: bundle exec asciidoctor-pdf -r asciidoctor-kroki
